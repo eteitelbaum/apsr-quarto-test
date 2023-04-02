@@ -1,27 +1,28 @@
 ---
-title: Apsr Template
+title: APSR Template Test
 format:
   apsr-pdf:
     keep-tex: true  
-  apsr-html: default
+  #apsr-html: default
 author:
-  - name: Sarah Malloc
+  - name: Bullwinkle J. Moose
     affiliations:
-      - name: An Organization
-        department: The Department
-        address: 1 Main St
-        city: Boston
+      - name: Wassamotta U.
+        department: Department of Environmental Science
+        address: 1501 U.S. Highway 71
+        city: Frostbite Falls
         country: USA
-        postal-code: 02210-1022
-      - A second affilication
+        postal-code: 56649
+      - second affiliation
     orcid: 0000-0000-0000-0000
-    email: sm@example.org
+    email: bjm2@wossamotta.edu
     url: https://example.org/
-  - name: Eliza Dealloc
+  - name: Kathryn Janeway
     affiliations:
-      - Another Affiliation
+      - name: Starfleet Academy
+      - email: k.janeway@sfa.edu
 abstract: |
-  This document is a template demonstrating the Apsr format.
+  "Convallis a cras semper auctor neque vitae. Id faucibus nisl tincidunt eget nullam non nisi. Eget nunc scelerisque viverra mauris. Risus sed vulputate odio ut enim blandit volutpat maecenas. Quam elementum pulvinar etiam non quam lacus. Ut tortor pretium viverra suspendisse. Id consectetur purus ut faucibus pulvinar elementum."
 keywords: [template, demo]
 bibliography: bibliography.bib  
 ---

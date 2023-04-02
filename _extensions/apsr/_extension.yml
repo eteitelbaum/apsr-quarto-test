@@ -13,13 +13,13 @@ contributes:
           echo: false
     pdf:
       # include-in-header: header.tex
-      pdf-engine: pdflatex # why this engine? 
-      template: apsr.tex
-      documentclass: vgtc # what does this mean?
+      # pdf-engine: pdflatex 
+      #template: apsr.tex
+      #documentclass: apsr 
       colorlinks: true
       urlcolor: blue
       fig-width: 6.5
       fig-height: 4.5
-    html:
-      css: styles.css
+    #html:
+      #css: styles.css
 
