@@ -10,7 +10,7 @@
 % v1.2: Updates autowc to be compatible with Overleaf's build flow
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{apsr_submission}[2020/02/14 v1.2]
+\ProvidesClass{apsr-submission}[2020/02/14 v1.2]
 
 \newif\if@biblatex
 \newif\if@blind
@@ -46,7 +46,7 @@
     \RequirePackage[utf8]{inputenc}
 \fi\fi
 \RequirePackage[T1]{fontenc}
-\RequirePackage{newtxtext,newtxmath}
+%\RequirePackage{newtxtext,newtxmath}
 \RequirePackage{microtype}
 \RequirePackage{textcase}
 \RequirePackage{lettrine}

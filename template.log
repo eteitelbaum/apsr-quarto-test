@@ -1,23 +1,48 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.1.25)  3 APR 2023 08:15
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.1.25)  3 APR 2023 18:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **template.tex
 (./template.tex
 LaTeX2e <2022-11-01> patch level 1
-L3 programming layer <2023-01-16>
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.8 
-     
+L3 programming layer <2023-01-16> (./apsr-submission.cls
+Document Class: apsr-submission 2020/02/14 v1.2
+(c:/Users/emman/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
+(c:/Users/emman/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count181
+\c@section=\count182
+\c@subsection=\count183
+\c@subsubsection=\count184
+\c@paragraph=\count185
+\c@subparagraph=\count186
+\c@figure=\count187
+\c@table=\count188
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+)
+
+! LaTeX Error: File `silence.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: 
+! Emergency stop.
+<read *> 
+         
+l.37 \WarningFilter
+                   *{hyperref}{Ignoring empty anchor}^^M 
 Here is how much of TeX's memory you used:
- 24 strings out of 478755
- 463 string characters out of 5848301
+ 288 strings out of 478755
+ 3994 string characters out of 5848301
  1841985 words of memory out of 5000000
- 20155 multiletter control sequences out of 15000+600000
- 512287 words of font info for 32 fonts, out of 8000000 for 9000
+ 20404 multiletter control sequences out of 15000+600000
+ 512295 words of font info for 33 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 15i,0n,22p,106b,10s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 47i,0n,52p,126b,40s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 No pages of output.
