@@ -12,11 +12,7 @@ contributes:
       #  opts_chunk:
       #    echo: false
     pdf:
-<<<<<<< HEAD
-      documentclass: apsr-submission
-=======
       documentclass: "apsr-submission"
->>>>>>> 90405e504bc3781dcdc75f56b29ebf3e71394cbe
       biblio-style: chicago-apsr
       cite-method: natbib
       #define default configuration for the pdf version of your format
