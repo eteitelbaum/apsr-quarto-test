@@ -4,22 +4,29 @@ version: 0.1.0
 quarto-required: ">=1.2.0"
 contributes:
   formats:
-    common:
-      csl: american-political-science-association.csl
-      filters:
-        - apsr.lua
-      knitr: 
-        opts_chunk:
-          echo: false
+    #common:
+      #csl: american-political-science-association.csl
+      #filters:
+      #  - apsr.lua
+      #knitr: 
+      #  opts_chunk:
+      #    echo: false
     pdf:
+      documentclass: apsr_submission
+      biblio-style: chicago-apsr
+      cite-method: natbib
+      #define default configuration for the pdf version of your format
       # include-in-header: header.tex
-      # pdf-engine: pdflatex 
       #template: apsr.tex
-      #documentclass: apsr 
-      colorlinks: true
-      urlcolor: blue
-      fig-width: 6.5
-      fig-height: 4.5
+      #colorlinks: true
+      #urlcolor: blue
+      #fig-width: 6.5
+      #fig-height: 4.5
+      # This format uses a bst file with natbib
+      format-resources:
+        # Add here the resources required for the PDF rendering
+        - apsr_submission.cls
+        - chicago-apsr.bst
     #html:
       #css: styles.css
 
