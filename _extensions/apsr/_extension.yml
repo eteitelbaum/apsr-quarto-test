@@ -13,16 +13,19 @@ contributes:
       #    echo: false
     pdf:
       documentclass: "apsr-submission"
+      template: apsr.tex
       biblio-style: chicago-apsr
       cite-method: natbib
       #define default configuration for the pdf version of your format
       # include-in-header: header.tex
-      #template: apsr.tex
       #colorlinks: true
       #urlcolor: blue
       #fig-width: 6.5
       #fig-height: 4.5
       # This format uses a bst file with natbib
+      template-partials:
+        # Add here the partials your format is using
+        - "partials/_preamble.tex"
       format-resources:
         # Add here the resources required for the PDF rendering
         - apsr-submission.cls
