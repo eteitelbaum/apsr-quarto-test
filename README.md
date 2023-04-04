@@ -3,7 +3,7 @@
 
 ## Creating a New Article
 
-To create a new article using this format:
+To create a new article using the APSR format:
 
 *TODO*: Replace the `<github-organization>` with your GitHub organization.
 
